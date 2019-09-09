@@ -35,3 +35,5 @@ def kesha_maker(array)
   end
   new_array
 end
+
+kesha_maker(["Hello", "Friends", "Kesha"])
