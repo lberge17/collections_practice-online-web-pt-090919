@@ -21,3 +21,5 @@ def swap_elements(array)
   array[1] = element2
   array
 end
+
+def
