@@ -29,7 +29,7 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |string|
-    puts string.split[0]
+    puts string.split[""]
     #letters[2] = "$"
     #new_array << letters.join("")
   end
