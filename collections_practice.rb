@@ -20,6 +20,15 @@ def swap_elements(array)
   array[2] = element1
   array[1] = element2
   array
+  
+  if a == b
+    0
+  elsif a < b
+    -1
+  elsif a > b
+    1
+  end
+  
 end
 
 def reverse_array(array)
