@@ -33,7 +33,7 @@ def kesha_maker(array)
     letters[2] = "$"
     new_array << letters.join("")
   end
-  new_array
+  puts new_array
 end
 
 kesha_maker(["Hello", "Friends", "Kesha"])
