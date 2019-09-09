@@ -46,8 +46,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect {|element, index| 
-  if index != 1 
-    element.split("").push("s").join("")
-  end
+  index != 1 ? element.split("").push("s").join("") : element
   }
 end
